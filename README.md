@@ -1,6 +1,6 @@
 # Sepehr Jokanian - Portfolio
 
-This is the personal portfolio website for Sepehr Jokanian, an AI Developer & Machine Learning Specialist.
+This is the personal portfolio website for Sepehr Jokanian.
 
 ## Tech Stack
 
