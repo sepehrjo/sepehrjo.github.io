@@ -5,6 +5,7 @@ import { Card } from "@/components/ui/card";
 import { certifications } from "@/lib/data";
 import { motion } from "framer-motion";
 import { Award } from "lucide-react";
+import { CertificatesCarousel } from "@/components/certificates-carousel";
 
 export function Certifications() {
   const { pte } = certifications;
@@ -14,6 +15,12 @@ export function Certifications() {
     { label: "Speaking", score: pte.speaking },
     { label: "Writing", score: pte.writing },
   ];
+
+  const certificateSlides = Array.from({ length: 10 }, (_, i) => ({
+    src: `/assets/certs/full/${i + 1}.png`,
+    alt: `Certificate ${i + 1}`,
+    title: `Certificate ${i + 1}`,
+  }));
 
   return (
     <SectionWrapper id="certifications" className="bg-background/50">
@@ -76,6 +83,11 @@ export function Certifications() {
             ))}
           </div>
         </Card>
+
+        {/* Certificates Gallery */}
+        <div id="certGallery" className="mt-12">
+          <CertificatesCarousel slides={certificateSlides} />
+        </div>
       </div>
     </SectionWrapper>
   );

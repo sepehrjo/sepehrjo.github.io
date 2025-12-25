@@ -30,6 +30,9 @@ export function References() {
             <p className="text-muted-foreground">
               {ref.position}
             </p>
+            <p className="text-xs text-muted-foreground mt-4 italic">
+              Recommendation letters available upon request.
+            </p>
           </Card>
         ))}
       </div>
