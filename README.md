@@ -1,20 +1,20 @@
-Sepehr Jokanian — Portfolio
-This repository contains my personal portfolio website. It presents my academic background, projects, publications, and technical experience.
+**Sepehr Jokanian — Portfolio**
+This repository contains my personal portfolio website.
+It presents my academic background, projects, publications, and technical experience.
 
-Run Locally
+**Run Locally**
 npm run dev
 Open http://localhost:3000 in your browser.
 
-Project Structure
-* src/app — Pages and layout
-* src/components — UI components
-* src/lib/data.ts — Main site content
-* public — Images and CV files
+**Project Structure**
+src/app — Pages and layout
+src/components — UI components
+src/lib/data.ts — Main site content
+public — Images and CV files
 
-Customization
+**Customization**
 Edit the following file to update content:
 src/lib/data.ts
 
-Build
+**Build**
 npm run build
-
