@@ -27,13 +27,17 @@ export function Skills() {
               <div key={index} className="space-y-2">
                 <div className="flex justify-between text-sm">
                   <span className="font-medium">{skill.name}</span>
-                  <span className="text-muted-foreground">{skill.level}</span>
                 </div>
                 <div className="h-2 bg-secondary/10 rounded-full overflow-hidden">
                   <motion.div
                     initial={{ width: 0 }}
                     whileInView={{ 
-                      width: skill.level === "Advanced" ? "90%" : "70%" 
+                      width:
+                        skill.level === "High"
+                          ? "90%"
+                          : skill.level === "Medium"
+                            ? "60%"
+                            : "30%"
                     }}
                     transition={{ duration: 1, delay: index * 0.1 }}
                     className="h-full bg-gradient-to-r from-primary to-secondary rounded-full"

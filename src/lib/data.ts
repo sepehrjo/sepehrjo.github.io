@@ -157,15 +157,15 @@ export const projects = [
 
 export const skills = {
   languages: [
-    { name: "Python", level: "" },
-    { name: "SQL", level: "" },
-    { name: "Java", level: "" },
-    { name: "C++", level: "" },
-    { name: "C", level: "" },
-    { name: "R Programming", level: "" },
-    { name: "MATLAB", level: "" },
-    { name: "Flutter/Dart", level: "" },
-    { name: "HTML/CSS", level: "" },
+    { name: "Python", level: "High" },
+    { name: "SQL", level: "High" },
+    { name: "Java", level: "High" },
+    { name: "C++", level: "Medium" },
+    { name: "C", level: "Medium" },
+    { name: "R Programming", level: "Medium" },
+    { name: "MATLAB", level: "Low" },
+    { name: "Flutter/Dart", level: "Medium" },
+    { name: "HTML/CSS", level: "Low" },
   ],
   frameworks: [
     "TensorFlow",
