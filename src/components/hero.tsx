@@ -1,10 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowDown, Download, Eye } from "lucide-react";
+import { ArrowDown, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { personalInfo } from "@/lib/data";
 import Link from "next/link";
+import { CvDownloadMenu } from "@/components/cv-download-menu";
 
 export function Hero() {
   return (
@@ -38,12 +39,7 @@ export function Hero() {
                 View Projects
               </Button>
             </Link>
-            <a href="/Sepehr_Jokanian_CV.pdf" download>
-              <Button variant="outline" size="lg" className="group">
-                <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
-                Download CV
-              </Button>
-            </a>
+            <CvDownloadMenu buttonLabel="Download CV" buttonVariant="outline" buttonSize="lg" />
           </div>
         </motion.div>
       </div>

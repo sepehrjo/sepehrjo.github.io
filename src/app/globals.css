@@ -74,6 +74,51 @@
   }
 }
 
+/* Manual theme override (set by ThemeProvider) */
+:root[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #0f172a;
+
+  --primary: #6366f1;
+  --primary-foreground: #ffffff;
+
+  --secondary: #ec4899;
+  --secondary-foreground: #ffffff;
+
+  --accent: #10b981;
+  --accent-foreground: #ffffff;
+
+  --muted: #e2e8f0;
+  --muted-foreground: #64748b;
+
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+
+  --border: #e2e8f0;
+}
+
+:root[data-theme="dark"] {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+
+  --primary: #6366f1;
+  --primary-foreground: #ffffff;
+
+  --secondary: #ec4899;
+  --secondary-foreground: #ffffff;
+
+  --accent: #10b981;
+  --accent-foreground: #ffffff;
+
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+
+  --card: #1e293b;
+  --card-foreground: #f8fafc;
+
+  --border: #334155;
+}
+
 /* Force dark mode for this portfolio as requested */
 body {
   background-color: var(--background);

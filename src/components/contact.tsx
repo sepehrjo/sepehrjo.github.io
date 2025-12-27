@@ -1,9 +1,8 @@
 "use client";
 
 import { SectionWrapper } from "@/components/ui/section-wrapper";
-import { Button } from "@/components/ui/button";
 import { socialLinks } from "@/lib/data";
-import { Download } from "lucide-react";
+import { CvDownloadMenu } from "@/components/cv-download-menu";
 
 export function Contact() {
   return (
@@ -35,12 +34,12 @@ export function Contact() {
           </div>
 
           <div className="pt-8">
-            <a href="/Sepehr_Jokanian_CV.pdf" download>
-              <Button size="lg" className="w-full sm:w-auto group">
-                <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
-                Download Resume
-              </Button>
-            </a>
+            <CvDownloadMenu
+              buttonLabel="Download Resume"
+              buttonVariant="primary"
+              buttonSize="lg"
+              className="w-full sm:w-auto"
+            />
           </div>
         </div>
       </div>
