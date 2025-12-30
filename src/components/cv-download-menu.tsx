@@ -59,7 +59,7 @@ export function CvDownloadMenu({
           <a
             role="menuitem"
             href="/Sepehr_Jokanian_CV.pdf"
-            download
+            download="Sepehr_Jokanian_CV.pdf"
             className="block px-4 py-3 text-sm text-foreground hover:bg-accent/10 transition-colors"
             onClick={() => setOpen(false)}
           >
@@ -68,7 +68,7 @@ export function CvDownloadMenu({
           <a
             role="menuitem"
             href="/Sepehr_Europass_CV.pdf"
-            download
+            download="Sepehr_Europass_CV.pdf"
             className="block px-4 py-3 text-sm text-foreground hover:bg-accent/10 transition-colors"
             onClick={() => setOpen(false)}
           >

@@ -47,25 +47,25 @@ export const experience = [
 
 export const publications = [
   {
-    title: "Overcoming bushfires challenges via machine learning techniques and enhanced training data in Australia",
-    authors: "Jokanian, S., & Sneha, J. A.",
-    journal: "Australasian Journal of Information Systems (AJIS), 2024",
-    status: "Manuscript submitted for publication",
+    title: "Developing an artificial intelligence system for cyberbully detection and enhancing safety on online forums",
+    authors: "Jokanian, S., Alizadeh, S.",
+    journal: "Manuscript under preparation for publication, 2026",
+    status: "In Preparation",
+    link: null,
+  },
+  {
+    title: "Overcoming bushfire challenges via machine learning techniques and enhanced training data in Australia",
+    authors: "Jokanian, S., Esmaeil Zadeh, N.",
+    journal: "Manuscript submitted to Natural Hazards (Springer Nature), December 2025",
+    status: "Submitted",
     link: null,
   },
   {
     title: "Application of machine learning for the prediction and management of non-communicable diseases",
     authors: "Jokanian, S.",
-    journal: "Journal of Applied Technology and Innovation (JATI), 2024",
+    journal: "Journal of Applied Technology and Innovation (JATI), 8(4), 28–35, 2024",
     status: "Published",
-    link: "https://jati.sites.apiit.edu.my/files/2024/11/Volume8_Issue4_Paper5_2024_28-35.pdf",
-  },
-  {
-    title: "Developing an artificial intelligence system for cyberbully detection and enhancing safety on online forums",
-    authors: "Jokanian, S., & Alizade, S.",
-    journal: "Manuscript under preparation for publication, 2026",
-    status: "In Preparation",
-    link: null,
+    link: "https://jati.sites.apiit.edu.my/wp-content/uploads/sites/11/2024/11/Volume8_Issue4_Paper5_2024_28-35.pdf",
   },
 ];
 
