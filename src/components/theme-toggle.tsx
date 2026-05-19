@@ -11,7 +11,10 @@ export function ThemeToggle() {
 
   // Avoid hydration mismatch by waiting for client-side mount
   useEffect(() => {
-    setMounted(true);
+    const handle = requestAnimationFrame(() => {
+      setMounted(true);
+    });
+    return () => cancelAnimationFrame(handle);
   }, []);
 
   if (!mounted) {

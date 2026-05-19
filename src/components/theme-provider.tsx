@@ -47,17 +47,16 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
   const applyTheme = useCallback((next: Theme) => {
     setThemeState(next);
-    if (typeof document !== "undefined") {
-      document.documentElement.dataset.theme = next;
-    }
-    if (typeof window !== "undefined") {
-      window.localStorage.setItem("theme", next);
-    }
   }, []);
 
   useEffect(() => {
-    applyTheme(theme);
-  }, [applyTheme, theme]);
+    if (typeof document !== "undefined") {
+      document.documentElement.dataset.theme = theme;
+    }
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem("theme", theme);
+    }
+  }, [theme]);
 
   const value = useMemo<ThemeContextValue>(
     () => ({
