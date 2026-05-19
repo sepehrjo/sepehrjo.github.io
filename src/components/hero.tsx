@@ -10,11 +10,7 @@ import { CvDownloadMenu } from "@/components/cv-download-menu";
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Background Animation */}
-      <div className="absolute inset-0 -z-10">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-pulse delay-1000" />
-      </div>
+
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
         <motion.div
