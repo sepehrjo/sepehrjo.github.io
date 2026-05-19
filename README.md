@@ -1,6 +1,10 @@
 # Sepehr Jokanian — Portfolio
 
-This repository contains my personal portfolio website. It presents my academic background, projects, publications, and technical experience.
+This repository contains my personal portfolio website, featuring a premium human-coded developer theme. It presents my academic background, projects, publications, and technical experience.
+
+## Preview
+
+![Portfolio Dark Mode Preview](public/screenshots/portfolio-preview.png)
 
 ## Run Locally
 
