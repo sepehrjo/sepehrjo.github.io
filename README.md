@@ -2,9 +2,19 @@
 
 This repository contains my personal portfolio website, featuring a premium human-coded developer theme. It presents my academic background, projects, publications, and technical experience.
 
-## Preview
+## Previews
 
-![Portfolio Dark Mode Preview](public/screenshots/portfolio-preview.png)
+### 🖥️ Hero Section
+![Hero Section Preview](public/screenshots/portfolio-hero.png)
+
+### 💼 Experience Section
+![Experience Section Preview](public/screenshots/portfolio-experience.png)
+
+### 🚀 Projects Section
+![Projects Section Preview](public/screenshots/portfolio-projects.png)
+
+### 🧠 Skills Section
+![Skills Section Preview](public/screenshots/portfolio-skills.png)
 
 ## Run Locally
 
